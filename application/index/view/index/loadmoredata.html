@@ -1,0 +1,20 @@
+{foreach $list as $vo}         
+<li class="c-item">            
+    <div class="c-i-info">     
+        <div class="info-title">id</div>
+        <div class="info-cont">{$vo.name}</div>
+    </div>                     
+    <div class="c-i-info">     
+        <div class="info-title">name</div>
+        <div class="info-cont">{$vo.kecheng}</div>
+    </div>
+    <div class="c-i-info">     
+        <div class="info-title">email</div>
+        <div class="info-cont">{$vo.score}</div>
+    </div>
+    <div class="c-i-info">     
+        <div class="info-title">passwd</div>
+        <div class="info-cont">{$vo.content}</div>
+    </div>
+</li>
+{/foreach} 
